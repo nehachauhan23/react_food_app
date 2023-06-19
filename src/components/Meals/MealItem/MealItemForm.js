@@ -12,7 +12,7 @@ const inputAdd = {
 const MealItemForm = () =>{
     return(
         <form className={classes.form}>
-            <Input label="Quantity" input={inputAdd} />
+            <Input label="" input={inputAdd} />
             <button>+ Add </button>
         </form>
     )
